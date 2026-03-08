@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 const Header = () => {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
-	  <img src="/icon.jpg" alt="Logo" className="mr-2" />
+	  <img src="/icon.jpg" alt="Logo" className="h-9 w-16 mr-2" />
       <Link to="/" className="flex items-center justify-center">
         <span className="text-xl font-bold">悠铭兽语-Yomi Paws</span>
       </Link>
